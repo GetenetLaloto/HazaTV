@@ -1,0 +1,31 @@
+---
+layout: compress
+---
+{% include root.html %}
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+  {% include metadata.html %}
+  {% include google_analytics.html %}
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400&text=YegetaBaryaHabtamuGospelMinistry" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet">
+  {% include resources.html%}
+	<title>{{site.data[page.data_file].metadata.title}}</title>
+</head>
+<body>
+
+<div class='body-wrapper'>
+  {% include navbar.html %}
+  <div class='content-wrapper'>
+    {{ content }}
+  </div>
+  {% include footer.html%}
+</div>
+
+
+
+</body>
+</html>
