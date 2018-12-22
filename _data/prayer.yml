@@ -1,8 +1,8 @@
 metadata:
-  title: "Yegeta Barya Habtamu Ministry Prayer Request"
-  description: "Yegeta Barya Habtamu Ministry Prayer Request"
-  keywords: "Yegeta Barya, Ministry, Prayer Request, form, email, contact"
-  url: "http://www.yegetabaryahabtamu.org"
+  title: "Christ Our Passover International Church Prayer Request"
+  description: "Christ Our Passover International Church Request"
+  keywords: "HazaTV, Ministry, Prayer Request, form, email, contact"
+  url: "http://www.HazaTV.com"
   image: "/resources/images/church/img_2.JPG"
 css: /resources/css/prayer.css
 js:
@@ -16,7 +16,7 @@ sass_partials:
   - 'mixins.sass'
   - 'navbar.sass'
 navbar:
-  title: "Yegeta Barya Habtamu Gospel Ministry"
+  title: "HazaTV"
   links:
     Home: '/'
     # About: '/about'

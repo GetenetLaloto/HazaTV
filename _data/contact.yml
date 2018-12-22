@@ -1,8 +1,8 @@
 metadata:
-  title: "Yegeta Barya Habtamu Ministry Contact"
-  description: "Yegeta Barya Habtamu Ministry Contact"
-  keywords: "Yegeta Barya, Ministry, contact, information, address, phone number, location"
-  url: "http://www.yegetabaryahabtamu.org"
+  title: "Christ Our Passover International Church Contact"
+  description: "Christ Our Passover International Church Contact"
+  keywords: "HazaTV, Ministry, contact, information, address, phone number, location"
+  url: "http://www.HazaTV"
   image: "/resources/images/church/img_2.JPG"
 css: /resources/css/contact.css
 js:
@@ -18,7 +18,7 @@ sass_partials:
   - 'contact.sass'
   - 'social_bar.sass'
 navbar:
-  title: "Yegeta Barya Habtamu Gospel Ministry"
+  title: "HazaTV"
   links:
     Home: '/'
     # About: '/about'
@@ -28,14 +28,14 @@ navbar:
     Contact: '/contact'
     Gallery: '/gallery'
 contact:
-  query: 'q=New+York,New+York,NY&zoom=8'
+  query: 'q=Hawassa'
   title: Contact Information
   text:
-    - 'Mobile: +1347-839-7738'
-    - 'E-Mail: gutta123.hg@gmail.com'
+    - 'Mobile: #'
+    - 'E-Mail: #'
 social_bar:
-  facebook: 'https://www.facebook.com/habty.bayssa'
-  instagram: 'https://www.instagram.com/yegta1/'
+  facebook: 'https://www.facebook.com/benjamin.zewdu'
+  instagram: '#'
   whatsapp: 'https://api.whatsapp.com/send?phone=13478397738'
-  youtube: 'https://www.youtube.com/channel/UCb9PgMG5ZrnWRriBhL5y2yQ'
-  twitter: 'https://twitter.com/hg_gutta'
+  youtube: 'https://www.youtube.com/channel/UCbirA1XlP9WnruwwQgzSvtg'
+  twitter: '#'

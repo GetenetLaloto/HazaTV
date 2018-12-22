@@ -1,8 +1,8 @@
 metadata:
-  title: "Yegeta Barya Habtamu Ministry Gallery"
-  description: "Yegeta Barya Habtamu Ministry Gallery"
-  keywords: "Yegeta Barya, Ministry, church images, gallery, photos"
-  url: "http://www.yegetabaryahabtamu.org"
+  title: "Christ Our Passover International Church"
+  description: "Christ Our Passover International Church Gallery"
+  keywords: "HazaTV, Ministry, church images, gallery, photos"
+  url: "http://www.HazaTV.com"
   image: "/resources/images/church/img_2.JPG"
 css: /resources/css/gallery.css
 js:
@@ -19,7 +19,7 @@ sass_partials:
   - 'navbar.sass'
   - 'gallery.sass'
 navbar:
-  title: "Yegeta Barya Habtamu Gospel Ministry"
+  title: "HazaTV"
   links:
     Home: '/'
     # About: '/about'

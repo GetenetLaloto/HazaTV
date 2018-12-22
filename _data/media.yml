@@ -1,8 +1,8 @@
 metadata:
-  title: "Yegeta Barya Habtamu Ministry Media"
-  description: "Yegeta Barya Habtamu Ministry Media"
-  keywords: "Yegeta Barya, Ministry, media, videos, youtube"
-  url: "http://www.yegetabaryahabtamu.org"
+  title: "HazaTV Media"
+  description: "HazaTV Media"
+  keywords: "HazaTV, Ministry, media, videos, youtube"
+  url: "http://www.HazaTV.com"
   image: "/resources/images/church/img_2.JPG"
 css: /resources/css/media.css
 js:
@@ -20,7 +20,7 @@ sass_partials:
   - 'youtube_videos.sass'
   - 'share_social_bar.sass'
 navbar:
-  title: "Yegeta Barya Habtamu Gospel Ministry"
+  title: "HazaTV"
   links:
     Home: '/'
     # About: '/about'

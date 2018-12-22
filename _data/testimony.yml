@@ -1,8 +1,8 @@
 metadata:
-  title: "Yegeta Barya Habtamu Ministry Testimony Form"
-  description: "Yegeta Barya Habtamu Ministry Testiony Form"
-  keywords: "Yegeta Barya, Ministry, Testimony, form, email, contact"
-  url: "http://www.yegetabaryahabtamu.org"
+  title: "Christ Our Passover International Church Testimony Form"
+  description: "Christ Our Passover International Church Testiony Form"
+  keywords: "Christ our passover, Church, hazaTV, form, email, contact"
+  url: "http://www.HazaTV.com"
   image: "/resources/images/church/img_2.JPG"
 css: /resources/css/testimony.css
 js:
@@ -16,7 +16,7 @@ sass_partials:
   - 'mixins.sass'
   - 'navbar.sass'
 navbar:
-  title: "Yegeta Barya Habtamu Gospel Ministry"
+  title: "hazaTV"
   links:
     Home: '/'
     # About: '/about'
