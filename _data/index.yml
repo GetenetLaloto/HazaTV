@@ -30,19 +30,29 @@ navbar:
     Discipleship: '/discipleship'
     Media: '/media'
     Contact: '/contact'
-    Gallery: '/gallery'
+    church: '/church'
 home_message:
   message: '"14 The Lord said to Abram after Lot had parted from him, “Look around from where you are, to the north and south, to the east and west..""'
   sub: '- Genesis 13-14'
 slideshow:
   image:
-    - /resources/images/church/img_0.JPG
-    - /resources/images/church/img_1.JPG
-    - /resources/images/church/img_2.JPG
-    - /resources/images/church/img_3.JPG
-    - /resources/images/church/img_4.JPG
-    - /resources/images/church/img_5.JPG
-    - /resources/images/church/img_6.JPG
+    - /resources/images/church/photo_0.jpg
+    - /resources/images/church/photo_1.jpg
+    - /resources/images/church/photo_2.jpg
+    - /resources/images/church/photo_3.jpg
+    - /resources/images/church/photo_4.jpg
+    - /resources/images/church/photo_5.jpg
+    - /resources/images/church/photo_6.jpg
+    - /resources/images/church/photo_7.jpg
+    - /resources/images/church/photo_8.jpg
+    - /resources/images/church/photo_9.jpg
+    - /resources/images/church/photo_10.jpg
+    - /resources/images/church/photo_10.jpg
+    - /resources/images/church/photo_11.jpg
+    - /resources/images/church/photo_12.jpg
+    - /resources/images/church/photo_13.jpg
+    - /resources/images/church/photo_14.jpg
+    - /resources/images/church/photo_15.jpg
 social_bar:
   facebook: 'https://www.facebook.com/benjamin.zewdu'
   instagram: '#'
