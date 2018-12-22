@@ -17,7 +17,7 @@ sass_partials:
   - 'navbar.sass'
   - 'button_link.sass'
 navbar:
-  title: "HazaTV"
+  title: "Christ Our Passover International Church"
   links:
     Home: '/'
     # About: '/about'
