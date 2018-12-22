@@ -16,7 +16,7 @@ sass_partials:
   - 'mixins.sass'
   - 'navbar.sass'
 navbar:
-  title: "hazaTV"
+  title: "Christ Our Passover International Church"
   links:
     Home: '/'
     # About: '/about'
