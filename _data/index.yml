@@ -30,7 +30,7 @@ navbar:
     Discipleship: '/discipleship'
     Media: '/media'
     Contact: '/contact'
-    church: '/church'
+    Gallery: '/gallery'
 home_message:
   message: '"14 The Lord said to Abram after Lot had parted from him, “Look around from where you are, to the north and south, to the east and west..""'
   sub: '- Genesis 13-14'
