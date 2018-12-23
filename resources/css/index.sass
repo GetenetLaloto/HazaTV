@@ -26,14 +26,24 @@ data_file: index
   width: 60%
   margin: 20px auto
 
-.section.media
+.line-before::before
+  content: ""
+  display: block
+  border-top: 1px solid #e3dfd7
+  width: 60%
+  margin: 10px auto
+
+.line-after::after
+  content: ""
+  display: block
+  border-top: 1px solid #e3dfd7
+  width: 60%
+  margin: 10px auto
+
+.section
   text-align: center
-  &::after, &::before
-    content: ""
-    display: block
-    border-top: 1px solid #e3dfd7
-    width: 60%
-    margin: 10px auto
+
+.section.media
   .banner-wrapper
     width: 90%
     height: 200px
