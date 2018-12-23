@@ -1,7 +1,7 @@
 metadata:
   title: "Christ Our Passover International Church Contact"
-  description: "Christ Our Passover International Church Contact"
-  keywords: "HazaTV, Ministry, contact, information, address, phone number, location"
+  description: "Christ Our Passover International Church Contact information, location, and social media"
+  keywords: "HazaTV, Ministry, contact, information, address, phone number, location, social media, facebook, twitter, whatsapp, youtube, instagram"
   url: "http://www.HazaTV"
   image: "/resources/images/church/img_2.JPG"
 css: /resources/css/contact.css
@@ -35,7 +35,7 @@ contact:
     - 'E-Mail: #'
 social_bar:
   facebook: 'https://www.facebook.com/Haza-TV-1914472715307327/?epa=SEARCH_BOX'
-  instagram: '#'
+  # instagram: '#'
   whatsapp: 'https://api.whatsapp.com/send?phone=13478397738'
   youtube: 'https://www.youtube.com/channel/UCbirA1XlP9WnruwwQgzSvtg'
-  twitter: '#'
+  # twitter: '#'
