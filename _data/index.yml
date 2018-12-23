@@ -21,6 +21,7 @@ sass_partials:
   - "slideshow.sass"
   - "button_link.sass"
   - "social_bar.sass"
+  - 'contact.sass'
 navbar:
   title: "Christ Our Passover International Church"
   links:
@@ -59,3 +60,9 @@ social_bar:
   whatsapp: 'https://api.whatsapp.com/send?phone=13478397738'
   youtube: 'https://www.youtube.com/channel/UCbirA1XlP9WnruwwQgzSvtg'
   twitter: '#'
+contact:
+  query: 'q=Hawassa'
+  title: Contact Information
+  text:
+    - Addisu Gebeya
+    - Around the new ECX(Ethiopian Commodity Exchange)office
