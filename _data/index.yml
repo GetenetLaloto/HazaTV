@@ -62,7 +62,7 @@ social_bar:
   twitter: '#'
 contact:
   query: 'q=Hawassa'
-  title: Contact Information
+  # title: Contact Information
   text:
     - Addisu Gebeya
-    - Around the new ECX(Ethiopian Commodity Exchange) office
+    - Around the new ECX (Ethiopian Commodity Exchange) office
