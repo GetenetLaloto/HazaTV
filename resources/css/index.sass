@@ -42,8 +42,9 @@ data_file: index
 
 .section
   text-align: center
+  width: 100%
 
-.section.media
+.section#media-section
   .banner-wrapper
     width: 90%
     height: 200px
@@ -62,8 +63,60 @@ data_file: index
       +medium-devices
         width: 25%
 
-.section.schedule
+.section#schedule-section
   .contact-wrapper
     .info-wrapper
       p
         font-size: 18px
+
+.section#form-section
+  form
+    border: 1px solid #e3dfd7
+    border-top: 7px solid $link-hover-color
+    border-radius: 5px
+    background-color: white
+    padding: 20px
+    width: 90%
+    margin: 10px auto
+    text-align: left
+    .title
+      text-align: center
+    label
+      width: 100%
+      font-weight: 800
+      font-size: 1.1rem
+      color: black
+    input.text-input
+      width: 100%
+      width: 90%
+      display: block
+      min-height: 30px
+      margin: 10px 0 20px 0
+      outline: none
+      font-size: 1.1rem
+      border: 1px solid white
+      border-bottom: 1px solid #e3dfd7
+    input.button
+      display: block
+      color: white
+      background-color: $link-hover-color
+      transition: 200ms background-color
+      padding: 15px 10px
+      min-width: 90px
+      font-size: 1.1rem
+      border: 0
+      cursor: pointer
+      &:hover
+        background-color: $font-second-color
+  +medium-devices
+    form
+      width: 75%
+  +large-devices
+    form
+      width: 39.8%
+      margin: 10px 6.666%
+      display: inline-block
+      &:first-child
+        margin-right: 3.333%
+      &:last-child
+        margin-left: 3.333%
