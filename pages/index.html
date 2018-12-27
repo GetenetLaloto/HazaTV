@@ -7,7 +7,7 @@ data_file: 'index'
 
 {% include home_message.html %}
 {% include slideshow.html %}
-<div class='section media line-before line-after'>
+<div class='section line-before line-after' id='media-section'>
   <div class='banner-wrapper'><img src='/resources/images/other/banner_hazatv.jpg' /></div>
   <h1>HazaTV WorldWide</h1>
   <h4>*Get Empowered for Excellence!</h4>
@@ -17,7 +17,7 @@ data_file: 'index'
     <iframe class='video' src="https://www.youtube.com/embed/xhyF7GEMA0U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </div>
-<div class='section schedule line-after'>
+<div class='section line-after' id='schedule-section'>
   <h1>Service Schedule</h1>
   <p>
     Saturday: 10:00am - 1:00pm LT (Worship & Prayer)
@@ -25,6 +25,91 @@ data_file: 'index'
     Sunday: 9:00am - 1:00pm LT (Worship, Teaching, & Prayer)
   </p>
   {% include contact.html %}
+</div>
+<div class='form-responce'>
+  <div class='card'>
+    <h2 class='title'>Message</h2>
+    <p class='text'>Thanks for your sumbission.</p>
+    <div></div>
+    <button class='button'>Close</button>
+  </div>
+</div>
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {onSubmitForm();}"></iframe>
+<div class='section line-after' id='form-section'>
+  <form
+    id='prayer-request'
+    class="form"
+    action="https://docs.google.com/forms/d/e/1FAIpQLSfkl8nAWFGssJBEcPesAJxxBz5eOAatDpg5m2o6_dwlxbXwhQ/formResponse" method="post"
+    target="hidden_iframe"
+    onsubmit="submitted=true;"">
+      <h1 class='title line-after'>Prayer Request</h1>
+      <label>Name</label>
+      <input
+        class='text-input'
+        name="entry.2005620554"
+        type="text"
+        placeholder='Your Name'
+        required/>
+      <label>Email</label>
+      <input
+        class='text-input'
+        placeholder='Your e-mail'
+        name="entry.1045781291"
+        type="email"
+        required />
+      <label>Phone Number</label>
+      <input
+        class='text-input'
+        placeholder='Your Phone Number'
+        name="entry.1166974658"
+        type='tel'
+        required />
+      <label>Prayer Request</label>
+      <input
+        class='text-input'
+        placeholder='Prayer Request'
+        name="entry.839337160"
+        type='text'
+        required/>
+      <input class='button' type="submit" value="Send" />
+  </form>
+  <form
+    id='testimony'
+    class="form"
+    action="https://docs.google.com/forms/d/e/1FAIpQLScQJqMoi1QjLHBqle_wBMBG0m092qXP7cIGB9BrNAljYWsNEA/formResponse" method="post"
+    target="hidden_iframe"
+    onsubmit="submitted=true;"">
+      <h1 class='title line-after'>Testimony</h1>
+      <label>Name</label>
+      <input
+        class='text-input'
+        placeholder='Your Name'
+        name="entry.2005620554"
+        type="text"
+        required/>
+      <label>Email</label>
+      <input
+      class='text-input'
+      placeholder='Your e-mail'
+      name="entry.1045781291"
+      type="email"
+      required />
+      <label>Phone Number</label>
+      <input
+        class='text-input'
+        placeholder='Your Phone Number'
+        name="entry.1166974658"
+        type='tel'
+        required />
+      <label>Your Testimony</label>
+      <input
+        class='text-input'
+        placeholder='Your Testimony'
+        name="entry.839337160"
+        type='text'
+        required/>
+      <input class='button' type="submit" value="Send" />
+  </form>
 </div>
 <div class='link-button-wrapper'>
   {% include button_link.html link="#" text="Donate"%}
