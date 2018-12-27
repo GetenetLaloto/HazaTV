@@ -3,7 +3,7 @@ metadata:
   description: "Information about Christ Our Passover International Church"
   keywords: "Christ passover, Ministry, About, information"
   url: "http://www.hazaTV.com"
-  image: "/resources/images/church/img_2.JPG"
+  image: "/resources/images/other/link_image.JPG"
 css: /resources/css/about.css
 js:
   - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js

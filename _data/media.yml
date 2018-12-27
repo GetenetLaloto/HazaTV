@@ -3,7 +3,7 @@ metadata:
   description: "HazaTV Media"
   keywords: "HazaTV, Ministry, media, videos, youtube"
   url: "http://www.HazaTV.com"
-  image: "/resources/images/church/img_2.JPG"
+  image: "/resources/images/other/link_image.JPG"
 css: /resources/css/media.css
 js:
   - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
