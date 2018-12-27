@@ -26,7 +26,15 @@ data_file: 'index'
   </p>
   {% include contact.html %}
 </div>
-<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {console.log('submittes')}"></iframe>
+<div class='form-responce'>
+  <div class='card'>
+    <h2 class='title'>Message</h2>
+    <p class='text'>Thanks for your sumbission.</p>
+    <div></div>
+    <button class='button'>Close</button>
+  </div>
+</div>
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {onSubmitForm();}"></iframe>
 <div class='section line-after' id='form-section'>
   <form
     id='prayer-request'

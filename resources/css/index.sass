@@ -120,3 +120,45 @@ data_file: index
         margin-right: 3.333%
       &:last-child
         margin-left: 3.333%
+
+.form-responce
+  background-color: rgba(0,0,0,.3)
+  -webkit-backdrop-filter: blur(10px)
+  backdrop-filter: blur(10px)
+  width: 100vw
+  height: 100vh
+  position: fixed
+  z-index: 200
+  left: 0
+  justify-content: center
+  align-items: center
+  top: -100%
+  transition: top 600ms ease
+  display: flex
+  .card
+    margin: auto
+    display: inline-block
+    background-color: white
+    border: 1px solid #e3dfd7
+    border-radius: 5px
+    padding: 20px 20px
+    text-align: center
+    .text
+      margin-bottom: 7px
+    .button
+      display: block
+      margin: auto
+      background-color: $link-hover-color
+      color: white
+      transition: 200ms background-color
+      padding: 15px 10px
+      min-width: 90px
+      font-size: 1.1rem
+      border: 0
+      cursor: pointer
+      &:hover
+        background-color: $font-second-color
+
+.active-responce
+  .form-responce
+    top: 0%
