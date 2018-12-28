@@ -37,23 +37,13 @@ home_message:
   sub: '- Genesis 13-14'
 slideshow:
   image:
-    - /resources/images/slideshow/photo_0.jpg
-    - /resources/images/slideshow/photo_1.jpg
-    - /resources/images/slideshow/photo_2.jpg
-    - /resources/images/slideshow/photo_3.jpg
-    - /resources/images/slideshow/photo_4.jpg
-    - /resources/images/slideshow/photo_5.jpg
+    - /resources/images/slideshow/photo_0.JPG
+    - /resources/images/slideshow/photo_1.JPG
+    - /resources/images/slideshow/photo_2.JPG
+    - /resources/images/slideshow/photo_3.JPG
+    - /resources/images/slideshow/photo_5.JPG
     - /resources/images/slideshow/photo_6.jpg
-    - /resources/images/slideshow/photo_7.jpg
-    - /resources/images/slideshow/photo_8.jpg
-    - /resources/images/slideshow/photo_9.jpg
-    - /resources/images/slideshow/photo_10.jpg
-    - /resources/images/slideshow/photo_10.jpg
-    - /resources/images/slideshow/photo_11.jpg
-    - /resources/images/slideshow/photo_12.jpg
-    - /resources/images/slideshow/photo_13.jpg
-    - /resources/images/slideshow/photo_14.jpg
-    - /resources/images/slideshow/photo_15.jpg
+    - /resources/images/slideshow/photo_4.PNG
 social_bar:
   facebook: 'https://www.facebook.com/Haza-TV-1914472715307327/?epa=SEARCH_BOX'
   instagram: '#'
