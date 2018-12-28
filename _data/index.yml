@@ -37,13 +37,13 @@ home_message:
   sub: '- Genesis 13-14'
 slideshow:
   image:
-    - /resources/images/slideshow/photo_0.JPG
-    - /resources/images/slideshow/photo_1.JPG
-    - /resources/images/slideshow/photo_2.JPG
-    - /resources/images/slideshow/photo_3.JPG
-    - /resources/images/slideshow/photo_5.JPG
+    - /resources/images/slideshow/photo_0.jpg
+    - /resources/images/slideshow/photo_1.jpg
+    - /resources/images/slideshow/photo_2.jpg
+    - /resources/images/slideshow/photo_3.jpg
+    - /resources/images/slideshow/photo_5.jpg
     - /resources/images/slideshow/photo_6.jpg
-    - /resources/images/slideshow/photo_4.PNG
+    - /resources/images/slideshow/photo_4.pgn
 social_bar:
   facebook: 'https://www.facebook.com/Haza-TV-1914472715307327/?epa=SEARCH_BOX'
   instagram: '#'
