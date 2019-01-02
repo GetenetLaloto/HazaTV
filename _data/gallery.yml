@@ -30,7 +30,7 @@ navbar:
     Gallery: '/gallery'
 gallery:
   images:
-    - /resources/images/gallery/photos_0.jpg
+    - /resources/images/gallery/photos_0.gif
     - /resources/images/gallery/photos_1.jpg
     - /resources/images/gallery/photos_2.jpg
     - /resources/images/gallery/photos_3.jpg
