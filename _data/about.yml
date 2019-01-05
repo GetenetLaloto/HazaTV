@@ -15,6 +15,7 @@ sass_partials:
   - 'sizes.sass'
   - 'mixins.sass'
   - 'navbar.sass'
+  - 'footer.sass'
 navbar:
   title: "Christ Our Passover International Church"
   links:

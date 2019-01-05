@@ -1,0 +1,51 @@
+@import 'mixins.sass'
+@import 'colors.sass'
+
+.footer
+  background-color: rgb(242, 162, 0)
+  color: white
+  .row
+    padding: 20px 2%
+    width: 100%
+    display: flex
+    flex-wrap: wrap
+    text-align: center
+    &.center-cont
+      justify-content: center
+      a
+        color: white
+        &:hover
+          color: $link-hover-color
+    .col
+      display: inline-block
+      float: left
+      font-size: 1rem
+      width: 100%
+      text-align: center
+      margin: 5px 0
+      .title
+        font-size: 1.2rem
+        margin: 7px 0
+      .sub-title
+        margin: 5px 0
+        text-decoration: underline
+      +medium-devices
+        text-align: left
+        width: 50%
+      +large-devices
+        width: 25%
+      .link
+        display: block
+      .social-bar
+        +medium-devices
+          justify-content: flex-start
+        margin: 0
+        .icon
+          margin: 3px 5px
+          width: 24px
+          height: 24px
+          background-color: white
+          &:first-child
+            margin-left: 0px
+          &:hover
+            background-color: $link-hover-color

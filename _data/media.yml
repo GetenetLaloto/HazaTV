@@ -19,6 +19,7 @@ sass_partials:
   - 'navbar.sass'
   - 'youtube_videos.sass'
   - 'share_social_bar.sass'
+  - 'footer.sass'
 navbar:
   title: "Christ Our Passover International Church"
   links:
