@@ -12,6 +12,7 @@
     text-align: center
     &.center-cont
       justify-content: center
+      flex-direction: column
       a
         color: white
         &:hover
@@ -23,6 +24,8 @@
       width: 100%
       text-align: center
       margin: 5px 0
+      #copyright
+        font-size: .7rem
       .title
         font-size: 1.2rem
         margin: 7px 0
@@ -37,9 +40,14 @@
       .link
         display: block
       .social-bar
-        +medium-devices
-          justify-content: flex-start
-        margin: 0
+        margin: 0 0 5px 0
+        a
+          transition: color .3s
+          color: white
+          &:hover
+            color: $link-hover-color
+            .icon
+              background-color: $link-hover-color
         .icon
           margin: 3px 5px
           width: 24px
@@ -47,5 +55,13 @@
           background-color: white
           &:first-child
             margin-left: 0px
-          &:hover
-            background-color: $link-hover-color
+        +medium-devices
+          justify-content: flex-start
+          flex-wrap: wrap
+          flex-direction: column
+          span
+            display: initial
+          a
+            transition: color .3s
+            display: flex
+            align-items: center
