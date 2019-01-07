@@ -19,13 +19,14 @@ sass_partials:
   - 'navbar.sass'
   - 'gallery.sass'
   - 'footer.sass'
+  - "social_bar.sass"
 navbar:
   title: "Christ Our Passover International Church"
   links:
     Home: '/'
     # About: '/about'
-    Ministry: '/ministry'
-    Discipleship: '/discipleship'
+    'About Us': '/aboutus'
+    #Discipleship: '/discipleship'
     Media: '/media'
     Contact: '/contact'
     Gallery: '/gallery'
@@ -57,3 +58,9 @@ gallery:
     - /resources/images/gallery/photos_22.jpg
     - /resources/images/gallery/photos_23.jpg
     - /resources/images/gallery/photos_0.gif
+social_bar:
+  facebook: 'https://www.facebook.com/Haza-TV-1914472715307327/?epa=SEARCH_BOX'
+  # instagram: '#'
+  whatsapp: 'https://api.whatsapp.com/send?phone=13478397738'
+  youtube: 'https://www.youtube.com/channel/UCbirA1XlP9WnruwwQgzSvtg'
+  # twitter: '#'

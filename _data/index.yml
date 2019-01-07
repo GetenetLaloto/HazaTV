@@ -28,8 +28,8 @@ navbar:
   links:
     Home: '/'
     # About: '/about'
-    Ministry: '/ministry'
-    Discipleship: '/discipleship'
+    'About Us': '/aboutus'
+    #Discipleship: '/discipleship'
     Media: '/media'
     Contact: '/contact'
     Gallery: '/gallery'
@@ -45,15 +45,15 @@ slideshow:
     - /resources/images/slideshow/photo_5.jpg
     - /resources/images/slideshow/photo_6.jpg
     - /resources/images/slideshow/photo_41.png
-social_bar:
-  facebook: 'https://www.facebook.com/Haza-TV-1914472715307327/?epa=SEARCH_BOX'
-  instagram: '#'
-  whatsapp: 'https://api.whatsapp.com/send?phone=13478397738'
-  youtube: 'https://www.youtube.com/channel/UCbirA1XlP9WnruwwQgzSvtg'
-  twitter: '#'
 contact:
   query: 'q=Hawassa'
   # title: Contact Information
   text:
     - Addisu Gebeya
     - Around the new ECX (Ethiopian Commodity Exchange) office
+social_bar:
+  facebook: 'https://www.facebook.com/Haza-TV-1914472715307327/?epa=SEARCH_BOX'
+  # instagram: '#'
+  whatsapp: 'https://api.whatsapp.com/send?phone=13478397738'
+  youtube: 'https://www.youtube.com/channel/UCbirA1XlP9WnruwwQgzSvtg'
+  # twitter: '#'

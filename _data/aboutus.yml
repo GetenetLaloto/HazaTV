@@ -4,10 +4,10 @@ metadata:
   keywords: "Christ Our Passover, Ministry, information"
   url: "http://www.HazaTV.com"
   image: "/resources/images/other/link_image.JPG"
-css: /resources/css/ministry.css
+css: /resources/css/aboutus.css
 js:
   - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
-  - /resources/js/ministry.js
+  - /resources/js/aboutus.js
 javascript_partials:
   - partial_assets/js/navbar.js
 sass_partials:
@@ -16,13 +16,20 @@ sass_partials:
   - 'mixins.sass'
   - 'navbar.sass'
   - 'footer.sass'
+  - "social_bar.sass"
 navbar:
   title: "Christ Our Passover International Church"
   links:
     Home: '/'
     # About: '/about'
-    Ministry: '/ministry'
-    Discipleship: '/discipleship'
+    'About Us': '/aboutus'
+    #Discipleship: '/discipleship'
     Media: '/media'
     Contact: '/contact'
     Gallery: '/gallery'
+social_bar:
+  facebook: 'https://www.facebook.com/Haza-TV-1914472715307327/?epa=SEARCH_BOX'
+  # instagram: '#'
+  whatsapp: 'https://api.whatsapp.com/send?phone=13478397738'
+  youtube: 'https://www.youtube.com/channel/UCbirA1XlP9WnruwwQgzSvtg'
+  # twitter: '#'
