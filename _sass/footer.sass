@@ -1,0 +1,67 @@
+@import 'mixins.sass'
+@import 'colors.sass'
+
+.footer
+  background-color: rgb(242, 162, 0)
+  color: white
+  .row
+    padding: 20px 2%
+    width: 100%
+    display: flex
+    flex-wrap: wrap
+    text-align: center
+    &.center-cont
+      justify-content: center
+      flex-direction: column
+      a
+        color: white
+        &:hover
+          color: $link-hover-color
+    .col
+      display: inline-block
+      float: left
+      font-size: 1rem
+      width: 100%
+      text-align: center
+      margin: 5px 0
+      #copyright
+        font-size: .7rem
+      .title
+        font-size: 1.2rem
+        margin: 7px 0
+      .sub-title
+        margin: 5px 0
+        text-decoration: underline
+      +medium-devices
+        text-align: left
+        width: 50%
+      +large-devices
+        width: 25%
+      .link
+        display: block
+      .social-bar
+        margin: 0 0 5px 0
+        a
+          transition: color .3s
+          color: white
+          &:hover
+            color: $link-hover-color
+            .icon
+              background-color: $link-hover-color
+        .icon
+          margin: 3px 5px
+          width: 24px
+          height: 24px
+          background-color: white
+          &:first-child
+            margin-left: 0px
+        +medium-devices
+          justify-content: flex-start
+          flex-wrap: wrap
+          flex-direction: column
+          span
+            display: initial
+          a
+            transition: color .3s
+            display: flex
+            align-items: center

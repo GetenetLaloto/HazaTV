@@ -17,13 +17,14 @@ sass_partials:
   - 'navbar.sass'
   - 'contact.sass'
   - 'social_bar.sass'
+  - 'footer.sass'
 navbar:
   title: "Christ Our Passover International Church"
   links:
     Home: '/'
     # About: '/about'
-    Ministry: '/ministry'
-    Discipleship: '/discipleship'
+    'About Us': '/aboutus'
+    #Discipleship: '/discipleship'
     Media: '/media'
     Contact: '/contact'
     Gallery: '/gallery'
@@ -31,8 +32,8 @@ contact:
   query: 'q=Hawassa'
   title: Contact Information
   text:
-    - 'Mobile: #'
-    - 'E-Mail: #'
+    - 'Mobile: +251983713737'
+    - 'E-Mail: hazatvworld@gmail.com'
 social_bar:
   facebook: 'https://www.facebook.com/Haza-TV-1914472715307327/?epa=SEARCH_BOX'
   # instagram: '#'
