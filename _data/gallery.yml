@@ -63,7 +63,7 @@ gallery:
     - /resources/images/gallery/photos_26.jpg
     - /resources/images/gallery/photos_27.jpg
     - /resources/images/gallery/photos_28.jpg
-    - /resources/images/gallery/photos_29.jpg    
+    - /resources/images/gallery/photos_29.jpg
     - /resources/images/gallery/photos_30.jpg
     - /resources/images/gallery/photos_31.jpg
     - /resources/images/gallery/photos_32.jpg
@@ -74,7 +74,7 @@ gallery:
     - /resources/images/gallery/photos_37.jpg
     - /resources/images/gallery/photos_38.jpg
 social_bar:
-  facebook: 'https://www.facebook.com/Haza-TV-1914472715307327/?epa=SEARCH_BOX'
+  facebook: 'https://www.facebook.com/HAZATVWORLDWIDE/'
   # instagram: '#'
   whatsapp: 'https://api.whatsapp.com/send?phone=13478397738'
   youtube: 'https://www.youtube.com/channel/UCbirA1XlP9WnruwwQgzSvtg'
